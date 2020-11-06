@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- <link href="assets/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="assets/css/services.css" rel="stylesheet"/>
+	  <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/utils.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+     -->
+
+     <link href="assets/css/bootstrap.min.css" rel="stylesheet"/>
+     <link href="assets/css/utils.css" rel="stylesheet"/>
+     <script src="assets/js/jquery.min.js"></script>
+     <script src="assets/js/bootstrap.min.js"></script>
+     
+     <!-- <script src="https://code.jquery.com/jquery-1.10.2.js"></script> -->
+     <!-- <script src="assets/js/utils.js"></script> -->
+     <!-- <script src="assets/js/slider.js"></script> -->
+    <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script> -->
+ 
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <?php include 'contact.php';?> -->
+  </head>
+  <!-- <script>
+    const constraints = {
+        name: {
+            presence: { allowEmpty: false }
+        },
+        email: {
+            presence: { allowEmpty: false },
+            email: true
+        },
+        message: {
+            presence: { allowEmpty: false }
+        }
+    };
+
+    const form = document.getElementById('contact-form');
+
+    form.addEventListener('submit', function (event) {
+        const formValues = {
+            name: form.elements.name.value,
+            email: form.elements.email.value,
+            message: form.elements.message.value
+        };
+
+        const errors = validate(formValues, constraints);
+
+        if (errors) {
+            event.preventDefault();
+            const errorMessage = Object
+                .values(errors)
+                .map(function (fieldValues) {
+                    return fieldValues.join(', ')
+                })
+                .join("\n");
+
+            alert(errorMessage);
+        }
+    }, false);
+
+</script> -->
+
+  <body>
+      <div id="navbar12345">
+
+        </div>
+    <!-- <header class="services_header">
+      <h1 class="heading"> PineconeTech</h1>
+    </header> -->
+    <!-- <nav class="navbar navbar-expand-sm fixed-top navbar-light">
+      <div class="container">
+          <a class="navbar-brand" href="index.html">Brand</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1">
+              <span class="navbar-toggler-icon"></span>
+          </button> -->
+          <!-- <div class="collapse navbar-collapse" id="navbar1">
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                      <a class="nav-link" href="services.html" style="padding:30px">Services</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#" style="padding:30px">Technologies</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#" style="padding:30px">Clients</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#" style="padding:30px">Insights</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#" style="padding:30px">About</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#" style="padding:30px"><button>Contact</button></a>
+                  </li>
+
+              </ul>
+          </div> -->
+         
+      <!-- </div> -->
+  <!-- </nav> -->
+  <!-- <div class="sticky-top bg-white hidden-spacer"></div> -->
+
+  <!-- <div class="container" style="background-color: #B49B57; padding-bottom:50px; padding-top:50px; width:700px">
+    <form action="mailto:ayna@pineconetech.com, ashish@pineconetech.com, epifanio@pineconetech.com, bhagyesh@pineconetech.com, lay@pineconetech.com" method="post" enctype="text/plain">
+      Name:  <br><input type="text" name="name"><br>
+      E-mail:  <br><input type="text" name="mail"><br>
+      Comment:  <br><input type="text" name="comment" size="50"><br><br>
+      <input type="submit" value="Send">
+      <input type="reset" value="Reset">
+    </form>
+  </div> -->
+  <div class="container" style="border-radius: 5px; background-color: #B49B57; padding: 20px; box-sizing: border-box; width:700px">
+    <form action="mailto:ayna@pineconetech.com, ashish@pineconetech.com, epifanio@pineconetech.com, bhagyesh@pineconetech.com, lay@pineconetech.com" method="post" enctype="text/plain">
+      First Name:
+      <input type="text" id="fname" name="firstname" placeholder="Enter your name"><br>
+  
+      Last Name:
+      <input type="text" id="lname" name="lastname" placeholder="Enter your last name"><br>
+
+      Phone Number:
+      <input type="text" id="lname" name="lastname" placeholder="Enter your contact number"><br>
+  
+      Email address:
+      <input type="text" id="lname" name="lastname" placeholder="Enter your email address"><br>
+
+      <!-- <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+      </select> -->
+  
+      Subject:
+      <textarea id="subject" name="subject" placeholder="Write something for us.." style="height:200px"></textarea>
+  
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+  <script src="assets/js/script.js"></script>
+  <script> 
+      $(function(){
+         $("#navbar12345").load("navbar.html");
+           });
+           </script>
+  </body>
+  </html>

@@ -1,0 +1,94 @@
+header {
+    height:70vh;
+    /* min-height:400px; */
+    background-size:cover;
+    background-position: center center;
+    background-image:url(../images/main1.jpg);
+}
+
+header .heading {
+  color: white;
+  text-align: center;
+  padding-top: 200px;
+}
+
+.hidden-spacer {
+    height: 56px
+}
+
+.division{
+    border-left: 6px solid green;
+    height: 50px;
+    /* position: absolute; */
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 5px;
+  }
+  
+  .row {margin: 0 -5px;}
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #444;
+    color: white;
+  }
+  
+  .fa {font-size:70px;}
+
+
+  .grid-container {
+    display: grid;
+    height: 400px;
+    align-content: center;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+
+
+  
+  .about {
+    background-color: #c57ed3;
+    color: #490d40;
+    height: 600px;
+    text-align: center;
+    margin-top: -20px;
+  }
+  .about h2 {
+    padding-top: 220px;
+  }
+  .about p {
+    padding: 20px 80px;
+  }
+  
+  
